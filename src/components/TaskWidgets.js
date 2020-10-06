@@ -5,6 +5,7 @@ import TodaysDate from './TodaysDate';
 const TaskWidgets = ({todos}) => {
   return (
     <div className='widgets'>
+      {/* <TodaysDate /> */}
       <div className='total-widget'>
         <p className='count'>{todos.length}</p>
         <p className='tasks'>Total Tasks</p>
@@ -29,7 +30,6 @@ const TaskWidgets = ({todos}) => {
         </p>
         <p className='remaining_tasks'>Remaining</p>
       </div>
-      <TodaysDate />
     </div>
   );
 };

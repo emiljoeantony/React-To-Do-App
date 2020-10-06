@@ -1,5 +1,7 @@
 body {
   background-color: #fbfbfb;
+  place-items: center;
+  position: absolute;
 }
 
 .App {
@@ -280,7 +282,7 @@ select {
   -webkit-box-direction: normal;
   flex-flow: flex-start;
   flex-wrap: wrap;
-  width: 50%;
+  width: 80%;
   margin: 0 auto;
   position: relative;
   padding: 10px;
